@@ -11,7 +11,10 @@ interviews, starting with a Google SWE intern virtual onsite (VO) in mid-Novembe
 - Reference sheets live in `docs/index.html`, also published with GitHub Pages (one page per topic:
   Big O, recursion, hash maps, trees, heaps, graphs, binary search, sliding window,
   monotonic stack, top K, backtracking, choosing a pattern, pattern catalog,
-  plus a LeetCode problems section with my solved problems).
+  plus a LeetCode problems section with my solved problems). The home page is a
+  progress tracker (Google VO focus topics, solved/starred problems saved in my browser).
+  When planning, ask me to paste my backup code from its "Quick add and backup" box
+  if you need my exact progress.
   When I'm weak on a topic, point me to the matching sheet by name.
 
 ## What a Google-style coding round looks like (simulate this)

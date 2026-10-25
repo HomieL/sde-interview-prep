@@ -27,5 +27,9 @@ The site is one file, `docs/index.html`. Each problem is an `<article>` in the
    followed directly by a letter, and `&` as `&amp;`.
 5. Test every code block: write a brute-force checker in a scratch file and compare
    on random inputs. Don't add code that fails.
-6. Open the page in a browser if one is available, or at least check the HTML parses.
-7. Commit with message `add LC <number>` and remind me to `git push` to update the site.
+6. Connect it to the tracker on the home page (the `<script>` that defines `TOPICS`, `P` and `WRITEUPS`):
+   - Add `<number>: "lc<number>"` to `WRITEUPS` so the problem row gets a Write-up link.
+   - If the problem isn't in `P` yet, ask me whether to add it, and to which topic.
+   - Never change `SEED` or the storage keys; my progress lives in my browser.
+7. Open the page in a browser if one is available, or at least check the HTML parses.
+8. Commit with message `add LC <number>` and remind me to `git push` to update the site.
